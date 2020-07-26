@@ -23,15 +23,8 @@ Command:
   21. microsoft word
   22. microsoft powerpoint
   23. microsoft excel
-
-
-
-
-
-
-
-
-
+  24. cmd
+  25. Play music
 
 
 Author: ApocalCrk
