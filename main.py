@@ -463,10 +463,6 @@ if __name__ == "__main__":
             ipconf = os.system("ipconfig")
             speak(ipconf)
 
-        elif 'whatsapp' in query:
-            os.startfile('C:/Users/personal7/AppData/Local/WhatsApp/WhatsApp.exe')
-            speak('Opening Whatsapp')
-
         elif 'who is' in query:
             person = getPerson(query)
             wiki = wikipedia.summary(person, sentences=2) 
