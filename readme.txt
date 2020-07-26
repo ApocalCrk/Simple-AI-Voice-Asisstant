@@ -1,4 +1,18 @@
 Program Guide
+
+Requirements:
+  1. pyttsx3
+  2. speech_recognition
+  3. wikipedia
+  4. webbrowser
+  5. smtplib
+  6. pyautogui
+  7. bs4
+  8. urllib
+  9. playsound
+  10. pygame
+  11. googletrans
+
 Command:
   1. Search on google "what do yo wantto searh"
   2. Search on youtube "what do you want to search"
