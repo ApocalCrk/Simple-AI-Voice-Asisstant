@@ -10,15 +10,3 @@ ques_name = ['what is your name','what is ur name','who are you']
 close_send = ['bye!','see you later!','bay','sleep']
 
 none_dictionary = ["Sorry, i don't know","i don't understand what do you mean"]
-
-badwords = []
-
-badword = open('badwords.txt', 'r')
-
-read = badword.readlines()
-
-for data in read:
-	data = data.replace('\n','')
-	badwords.append(data)
-
-badword.close()
