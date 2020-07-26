@@ -492,41 +492,10 @@ if __name__ == "__main__":
         elif 'microsoft excel' in query:
             speak("Opening Microsoft Office Excel")
             os.system('start excel')
-
-        elif 'kali linux' in query:
-            speak("Opening Kali Linux")
-            file_path = 'C:/Users/personal7/VirtualBox VMs/Kali Linux/Kali Linux.vbox'
-            os.startfile(file_path)
-            speak("Starting Kali Linux")
-
+            
         elif 'cmd' in query:
             speak("Opening CMD")
             os.startfile("C:/Windows/system32/cmd.exe")
-
-        elif 'sublime text' in query:
-            speak("Opening Sublime Text")
-            os.startfile("C:/Program Files (x86)/Sublime Text 3/sublime_text.exe")
-
-        elif 'visual code' in query:
-            speak("Opening Visual Studio Code")
-            os.startfile("C:/Users/personal7/AppData/Local/Programs/Microsoft VS Code/code.exe")
-
-
-        elif 'unity' in query:
-            speak('Starting Unity Engine Game')
-            os.startfile("E:/Unity/2018.4.18f1/Editor/Unity.exe")
-
-        elif 'netbeans' in query:
-            speak('Starting NetBeans IDE')
-            os.startfile("C:/Program Files/NetBeans 8.0.2/bin/netbeans64.exe")
-
-        elif 'record' in query:
-            speak("Starting record ur Laptop")
-            os.startfile("C:/Program Files (x86)/Bandicam/bdcam.exe")
-
-        elif 'play film name' in query:
-            film = getFilm(query)
-            speak("Start Playing"+query)
 
 
 
@@ -567,171 +536,12 @@ if __name__ == "__main__":
             mixer.init()
             while True:
                 query = takeCommand().lower()
-                if query == '1':
-                    mixer.music.load("E:/ferdy/music by input/4U.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '2':
-                    mixer.music.load("E:/ferdy/music by input/C U Again.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '3':
-                    mixer.music.load("E:/ferdy/music by input/Dreams.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '4':
-                    mixer.music.load("E:/ferdy/music by input/Everything.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '5':
-                    mixer.music.load("E:/ferdy/music by input/Fearless.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '6':
-                    mixer.music.load("E:/ferdy/music by input/Fight Back.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '7':
-                    mixer.music.load("E:/ferdy/music by input/Get Busy.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '8':
-                    mixer.music.load("E:/ferdy/music by input/Grateful.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '9':
-                    mixer.music.load("E:/ferdy/music by input/Happier.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '10':
-                    mixer.music.load("E:/ferdy/music by input/Heroes Tonight.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '11':
-                    mixer.music.load("E:/ferdy/music by input/Inspiration.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '12':
-                    mixer.music.load("E:/ferdy/music by input/Light It Up.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-    
-                elif query == '13':
-                    mixer.music.load("E:/ferdy/music by input/Linked.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-    
-                elif query == '14':
-                    mixer.music.load("E:/ferdy/music by input/Make Me Move.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-    
-                elif query == '15':
-                    mixer.music.load("E:/ferdy/music by input/Melody.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-    
-                elif query == '16':
-                    mixer.music.load("E:/ferdy/music by input/Perfect 10.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-    
-                elif query == '17':
-                    mixer.music.load("E:/ferdy/music by input/Pokemon.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '18':
-                    mixer.music.load("E:/ferdy/music by input/Rise.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '19':
-                    mixer.music.load("E:/ferdy/music by input/Sandy Freaks.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '20':
-                    mixer.music.load("E:/ferdy/music by input/Savannah.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '21':
-                    mixer.music.load("E:/ferdy/music by input/Season.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '22':
-                    mixer.music.load("E:/ferdy/music by input/Shootin Stars.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '23':
-                    mixer.music.load("E:/ferdy/music by input/Stronger.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()    
-
-                elif query == '24':
-                    mixer.music.load("E:/ferdy/music by input/Sunflower.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-    
-                elif query == '25':
-                    mixer.music.load("E:/ferdy/music by input/Sweet Scar.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '26':
-                    mixer.music.load("E:/ferdy/music by input/The Next Episode.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '27':
-                    mixer.music.load("E:/ferdy/music by input/Top 20 songs of NEFFEX 2018.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '28':
-                    mixer.music.load("E:/ferdy/music by input/Traffic Light.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '29':
-                    mixer.music.load("E:/ferdy/music by input/Vacation.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '30':
-                    mixer.music.load("E:/ferdy/music by input/Weakness.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '31':
-                    mixer.music.load("E:/ferdy/music by input/Why We Lose.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '32':
-                    mixer.music.load("E:/ferdy/music by input/Wicked Ways.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
-                elif query == '33':
-                    mixer.music.load("E:/ferdy/music by input/With You.mp3")
-                    mixer.music.set_volume(0.5)
-                    mixer.music.play()
-
+                # music list number
+                # ex:
+                #if query == '1':
+                    #mixer.music.load("4U.mp3")
+                    #mixer.music.set_volume(0.5)
+                    #mixer.music.play()
                 elif 'stop' in query:
                     mixer.music.stop()
                     speak("Stop Playing Music")
@@ -742,11 +552,6 @@ if __name__ == "__main__":
                 elif 'resume' in query:
                     mixer.music.unpause()
                     speak("Music Resume")
-
-        for pharse in badwords:
-            if pharse in query:
-                speak(random.choice(none_dictionary))
-                playsound('Speech Disambiguation.wav')
 
         for pharse in close_list:
             if pharse in query:
